@@ -1,0 +1,26 @@
+add-host A to-group SpecialEffects
+add-host B to-group SpecialEffects
+add-host C to-group SpecialEffects
+add-host D to-group SpecialEffects
+add-host E to-group QualityControl
+add-host F to-group QualityControl
+add-host G to-group QualityControl
+add-host H to-group QualityControl
+add-host I to-group QualityManager
+add-host J to-group SpecialEffectsManager
+
+add-rule SpecialEffects requires-login
+add-rule QualityControl requires-login
+add-rule QualityManager requires-login
+add-rule SpecialEffectsManager requires-login
+
+initial-login A aran.hakki@ppp.com abcd1234!
+initial-login B timmy.jackson@ppp.com abcd1234!
+initial-login C jacky.timson@ppp.com abcd1234!
+initial-login D stevey.jimmy@ppp.com abcd1234!
+initial-login E andy.powers@ppp.com abcd1234!
+initial-login F bobby.sands@ppp.com abcd1234!
+initial-login G sandy.fields@ppp.com abcd1234!
+initial-login H tim.shore@ppp.com abcd1234!
+initial-login I mike.john@ppp.com abcd1234!
+initial-login J david.davidson@ppp.com abcd1234!
